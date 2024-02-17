@@ -1,0 +1,27 @@
+.blog-details-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+
+  .blog-details-title {
+    color: lightgreen;
+    margin-bottom: 10px;
+  }
+
+  .blog-details-body {
+    margin: 20px 0;
+  }
+
+  p {
+    font-style: italic;
+  }
+
+  button {
+    background: lightgreen;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+  }
+}

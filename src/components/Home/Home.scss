@@ -1,0 +1,30 @@
+.home-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .blog-preview {
+    padding: 10px 16px;
+    margin: 20px 0;
+    border-bottom: 1px solid white;
+
+    &:hover {
+      box-shadow: 1px 3px 5px rgba(255, 255, 255, 0.3);
+    }
+
+    h2 {
+      font-size: 20px;
+      color: lightgreen;
+      margin-bottom: 8px;
+    }
+
+    p {
+      font-style: italic;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.about-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  h2 {
+    font-size: clamp(20.8px, 1.25vw, 24px);
+    font-weight: normal;
+  }
+}

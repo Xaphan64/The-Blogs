@@ -1,0 +1,12 @@
+.error-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  a {
+    color: lightgreen;
+  }
+}
