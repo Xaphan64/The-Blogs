@@ -18,7 +18,7 @@ const Home = () => {
   // API REQUESTS
 
   // LIBRARY CONSTANTS
-  const { data: blogs, isLoading, error } = useFetch("http://localhost:8000/blogs");
+  const { data: blogs, isLoading, error } = useFetch("https://blog-data-9hab.onrender.com/blogs");
 
   // STATE CONSTANTS
 

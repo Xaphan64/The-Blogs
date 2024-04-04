@@ -16,6 +16,7 @@
     padding: 6px 10px;
     margin: 10px 0;
     border: 1px solid #ddd;
+    border-radius: 4px;
     background-color: black;
     color: white;
     box-sizing: border-box;
@@ -25,6 +26,11 @@
     &:focus {
       border: 1px solid lightgreen;
     }
+  }
+
+  textarea {
+    resize: vertical;
+    height: 200px;
   }
 
   button {

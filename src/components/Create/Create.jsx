@@ -47,7 +47,7 @@ const Create = () => {
 
     setIsLoading(true);
 
-    fetch("http://localhost:8000/blogs", {
+    fetch("https://blog-data-9hab.onrender.com/blogs", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(blog),

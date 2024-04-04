@@ -17,12 +17,12 @@ import ConfirmationModal from "../ConfirmationModal/ConfirmationModal";
 const BlogDetails = () => {
   // PROPERTIES
 
-  // API REQUESTS
-  const { data: blog, error, isLoading } = useFetch("http://localhost:8000/blogs/" + id);
-
   // LIBRARY CONSTANTS
   const { id } = useParams();
   const navigate = useNavigate();
+
+  // API REQUESTS
+  const { data: blog, error, isLoading } = useFetch("https://blog-data-9hab.onrender.com/blogs/" + id);
 
   // STATE CONSTANTS
   const [modal, setModal] = useState(false);
@@ -31,7 +31,7 @@ const BlogDetails = () => {
 
   // EVENT HANDLERS
   const handleDelete = () => {
-    fetch("http://localhost:8000/blogs/" + blog.id, {
+    fetch("https://blog-data-9hab.onrender.com/blogs/" + blog.id, {
       method: "DELETE",
     }).then(() => {
       navigate("/");
